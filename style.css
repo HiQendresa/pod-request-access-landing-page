@@ -98,7 +98,7 @@ body .bg-image .tablet-image {
 @media screen and (min-width: 1200px) {
   body .bg-image {
     width: 888px;
-    height: 693px;
+    height: 684px;
     top: 7%;
   }
   body .bg-image .desktop-image {
@@ -340,7 +340,7 @@ main .dots-pattern {
 @media screen and (min-width: 1200px) {
   main .dots-pattern {
     position: absolute;
-    bottom: 1%;
+    bottom: 10%;
     right: -2.5%;
   }
 }/*# sourceMappingURL=style.css.map */
