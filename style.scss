@@ -1,5 +1,6 @@
 :root {
-    --font-family: 'Kumbh Sans', sans-serif;
+    --dark-color: hsla(224, 35%, 11%, 1);
+    --font-family: 'Chivo', sans-serif;
 }
 
 *,
@@ -39,7 +40,7 @@ body {
     padding: 50px;
   }
   @media screen and (min-width: 1200px){
-    padding-left: 60px;
+    padding-left: 110px;
   }
 }
 
@@ -54,7 +55,7 @@ picture {
 }
 
 body {
-  background: #121725;
+  background: var(--dark-color);
 
   .bg-image {
     position: absolute;
@@ -114,14 +115,14 @@ main {
     padding-top: 17%;
     height: 100vh;
 
-  ::after {
+    ::after {
       content: "";
       position: absolute;
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
-      background: #121725;
+      background: var(--dark-color);
       opacity: 0.2;
       width: 100%;
       height: 100%;
@@ -165,12 +166,12 @@ main {
           align-items: flex-start;
           margin-top: 202px;
 
-          background: #121725;
+          background: var(--dark-color);
       }
 
       @media screen and (min-width: 1200px) {
           height: 509px;
-
+          width: 723px;
           margin-top: 253px;
           padding: 70px 10px 0 10px;
       }
@@ -180,7 +181,7 @@ main {
 
         color: #54E6AF;
         text-align: center;
-        font-family: Chivo;
+        font-family: var(--font-family);
         font-size: 26px;
         font-style: normal;
         font-weight: 400;
@@ -205,7 +206,7 @@ main {
         
         color: #C2CBE5;
         text-align: center;
-        font-family: Chivo;
+        font-family: var(--font-family);
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
@@ -261,6 +262,7 @@ main {
           
           border-radius: 28px;
           background: #2C344B;
+          color:#fff;
           border: none;
           outline: none;
           
@@ -269,7 +271,7 @@ main {
           
           ::placeholder {
             color: #FFF;
-            font-family: Chivo;
+            font-family: var(--font-family);
             font-size: 14px;
             font-style: normal;
             font-weight: 400;
@@ -282,7 +284,23 @@ main {
             height: 56px;
           }
         }
-        
+
+        .error {
+            color: #FB3E3E;
+            font-family: var(--font-family);
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            position: absolute;
+            bottom: -19px;
+            left: 21px;
+
+            display: none;
+
+        }
+
         button {
           width: 326px;
           height: 46px;
@@ -293,12 +311,17 @@ main {
           box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.50);
           border: none;
           
-          color: #121725;
-          font-family: Chivo;
+          color: var(--dark-color);
+          font-family: var(--font-family);
           font-size: 14px;
           font-style: normal;
           font-weight: 400;
           line-height: 28px;
+
+          &:hover {
+            background: #B3FFE2;
+            box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.20);
+          }
 
           @media screen and (min-width: 767px) { 
             width: 162px;
@@ -320,8 +343,9 @@ main {
         margin-top: 95px;
       }
       @media screen and (min-width: 1200px) {
-        float: right;
-        margin-right: -52px;
+        position: absolute;
+        bottom: 1%;
+        right: -2.5%;
       }
     }
 }
