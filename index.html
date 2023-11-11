@@ -10,11 +10,60 @@
   <title>Pod request access landing page</title>
 </head>
 <body>
-  Publish your podcasts everywhere.
+  <div class="bg-image">
+      <!-- <img src="./assets/mobile/image-host.jpg"
+      srcset="./assets/desktop/image-host.jpg 1024w, ./assets/tablet/image-host.jpg 768w, ./assets/mobile/image-host.jpg 480w"
+      sizes="(min-width: 1024px) 1024px, (min-width: 768px) 768px, 100vw"
+      alt="background image"> -->
+      <img src="./assets/mobile/image-host.jpg" alt="mobile image" class="mobile-image">
+      <img src="./assets/tablet/image-host.jpg" alt="tablet image" class="tablet-image">
+      <img src="./assets/desktop/image-host.jpg" alt="desktop image" class="desktop-image">
+  </div>
 
-  Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-  Apple Podcasts, Google Podcasts, Pocket Casts and more!
+  <main>
+  <div class="header">
+    <div class="logo">
+      <img src="./assets/desktop/logo.svg" alt="logo">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" width="66" height="36" viewBox="0 0 66 36" fill="none">
+    </svg>
+  </div>
+  
+    <div class="container">
+      <h1 class="title"> Publish your podcasts <span>everywhere.</span></h1>
+      <div class="description"> 
+        Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+        Apple Podcasts, Google Podcasts, Pocket Casts and more!
+      </div>
+      <form action="submit">
+        <input type="email" name="email" id="emailInput" placeholder="Email address">
+        <button type="button">Request access</button>
+      </form>
 
-  Request access
+      <div class="social-media">
+        <div class="sm-icon">
+          <img src="./assets/desktop/apple-podcast.svg" alt="social media icon">
+        </div>
+        <div class="sm-icon">
+          <img src="./assets/desktop/spotify.svg" alt="social media icon">
+        </div>
+        <div class="sm-icon">
+          <img src="./assets/desktop/google-podcasts.svg" alt="social media icon">
+        </div>
+        <div class="sm-icon">
+          <img src="./assets/desktop/pocket-casts.svg" alt="social media icon">
+        </div>
+      </div>
+    </div>
+
+      <div class="dots-pattern">
+        <img src="./assets/desktop/bg-pattern-dots.svg" alt="pattern with dots">
+      </div>
+  </main>
+ 
+
+ 
+
+  
 </body>
 </html>
