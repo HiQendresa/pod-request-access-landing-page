@@ -42,7 +42,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   body {
-    padding-left: 110px;
+    padding-left: 60px;
   }
 }
 
@@ -98,6 +98,12 @@ body .bg-image .tablet-image {
   body .bg-image {
     width: 888px;
     top: 7%;
+  }
+  body .bg-image .desktop-image {
+    display: block;
+  }
+  body .bg-image .tablet-image {
+    display: none;
   }
 }
 
@@ -163,9 +169,9 @@ main .container {
 }
 @media screen and (min-width: 1200px) {
   main .container {
-    width: 723px;
     height: 509px;
-    margin-top: 135px;
+    margin-top: 253px;
+    padding: 70px 10px 0 10px;
   }
 }
 main .container h1 {

@@ -39,7 +39,7 @@ body {
     padding: 50px;
   }
   @media screen and (min-width: 1200px){
-    padding-left: 110px;
+    padding-left: 60px;
   }
 }
 
@@ -95,6 +95,12 @@ body {
         width: 888px;
         top: 7%;
       
+        .desktop-image {
+          display: block;
+        }
+        .tablet-image {
+          display: none;
+        }
     }
   }
 }
@@ -163,10 +169,10 @@ main {
       }
 
       @media screen and (min-width: 1200px) {
-          width: 723px;
           height: 509px;
 
-          margin-top: 135px;
+          margin-top: 253px;
+          padding: 70px 10px 0 10px;
       }
 
       h1 {
