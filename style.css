@@ -163,15 +163,16 @@ main .container {
 @media screen and (min-width: 767px) {
   main .container {
     width: 645px;
-    height: 509px;
+    height: 548px;
     align-items: flex-start;
     margin-top: 202px;
+    position: relative;
     background: var(--dark-color);
   }
 }
 @media screen and (min-width: 1200px) {
   main .container {
-    height: 509px;
+    height: 532px;
     width: 723px;
     margin-top: 253px;
     padding: 70px 10px 0 10px;
@@ -340,7 +341,7 @@ main .dots-pattern {
 @media screen and (min-width: 1200px) {
   main .dots-pattern {
     position: absolute;
-    bottom: 13%;
+    bottom: 31%;
     right: -2.5%;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -163,15 +163,17 @@ main {
 
       @media screen and (min-width: 767px) {
           width: 645px;
-          height: 509px;
+          height: 548px;
           align-items: flex-start;
           margin-top: 202px;
+          position: relative;
+
 
           background: var(--dark-color);
       }
 
       @media screen and (min-width: 1200px) {
-          height: 509px;
+          height: 532px;
           width: 723px;
           margin-top: 253px;
           padding: 70px 10px 0 10px;
@@ -345,7 +347,7 @@ main {
       }
       @media screen and (min-width: 1200px) {
         position: absolute;
-        bottom: 13%;
+        bottom: 31%;
         right: -2.5%;
       }
     }
