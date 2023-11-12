@@ -341,7 +341,7 @@ main .dots-pattern {
 @media screen and (min-width: 1200px) {
   main .dots-pattern {
     position: absolute;
-    bottom: 31%;
+    bottom: 25%;
     right: -2.5%;
   }
 }/*# sourceMappingURL=style.css.map */
